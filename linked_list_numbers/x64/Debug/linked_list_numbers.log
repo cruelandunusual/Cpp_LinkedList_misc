@@ -1,0 +1,33 @@
+﻿  TLAP_linked_list_numbers.cpp
+W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(260,27): error C2664: 'listNumber createNumber(char *)': cannot convert argument 1 from 'const char [3]' to 'char *'
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(260,40):
+      Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(28,12):
+      see declaration of 'createNumber'
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(260,27):
+      while trying to match the argument list '(const char [3])'
+  
+W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(261,27): error C2664: 'listNumber createNumber(char *)': cannot convert argument 1 from 'const char [3]' to 'char *'
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(261,40):
+      Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(28,12):
+      see declaration of 'createNumber'
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(261,27):
+      while trying to match the argument list '(const char [3])'
+  
+W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(293,27): error C2664: 'listNumber createNumber(char *)': cannot convert argument 1 from 'const char [3]' to 'char *'
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(293,40):
+      Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(28,12):
+      see declaration of 'createNumber'
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(293,27):
+      while trying to match the argument list '(const char [3])'
+  
+W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(294,27): error C2664: 'listNumber createNumber(char *)': cannot convert argument 1 from 'const char [3]' to 'char *'
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(294,40):
+      Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(28,12):
+      see declaration of 'createNumber'
+      W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers\TLAP_linked_list_numbers.cpp(294,27):
+      while trying to match the argument list '(const char [3])'
+  

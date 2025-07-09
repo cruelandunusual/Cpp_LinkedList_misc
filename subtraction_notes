@@ -1,0 +1,44 @@
+If the minuend is less than the subtrahend there is no borrowing from the next most significant minuend digit - simply perform subtraction per digit and if the answer for a particular digit is negative, then the whole answer will be negative. For example, 104 - 214 = 
++-----+
+|  104|
++-----+
+|-    |
++-----+
+|  214|
++-----+
+|=    |
++-----+
+| -110|
++-----+
+Here, 4-4=0, 0-1=-1, and 1-2=-1, so the resulting number is -110. I will need to store the sign on a rolling basis, so once the first negative answer is encountered, set the sign for the whole answer to be negative.
+What about 1914 - 2124?
+
+If the minuend is greater than the subtrahend then borrowing takes place. For example, 2234 - 1243:
++-----+
+| 2234|
++-----+
+|-    |
++-----+
+| 1243|
++-----+
+|=    |
++-----+
+|  991|
++-----+
+Here, 1 is borrowed from the 2 to enable the 3 to subtract 4 (it becomes 13-4); the 2 then borrows from the 1 to become 12-2; then the final subtraction is 1-1 = 0. The resulting number is 991.
+
+Need to determine if the minuend is greater than the subtrahend on a digit-by-digit case. Can't just subtract one from the other and see what the answer is - the purpose of this exercise is to implement subtraction. So it needs to be done at a lower level than that.
+
+Test the lengths of each number.
+      If the minuend length is greater than the subtrahend length, proceed with normal subtraction.
+      If the minuend is shorter than the subtrahend, perform reverse subtraction and flip the sign of the answer.
+      If the minuend is same length as subtrahend, test digit-by-digit if it's greater than, less than or the equal to the subtrahend.
+      	 If it's greater than the subtrahend, proceed with normal subtraction.
+	 If it's less than the subtrahend, perform reverse subtraction and flip the sign of the answer.
+	 If tt's the same as the subtrahend, return zero.
+
+
+Digit-by-digit test:
+Both numbers are same length, so only concerned with value of each corresponding digit.
+If most significant minuend digit is greater than the subtrahend, move to next number.
+Basically, when a greater-than test fails, set a boolean to true which results in reverse subtraction. Maybe not boolean... might need something which can store three states - a char perhaps, which stores whether or not to carry out normal subtraction, reverse subtraction or to return zero.

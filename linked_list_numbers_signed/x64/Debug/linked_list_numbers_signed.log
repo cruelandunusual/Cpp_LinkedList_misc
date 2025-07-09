@@ -1,0 +1,3 @@
+﻿  TLAP_linked_list_numbers_signed.cpp
+W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_numbers_signed\TLAP_linked_list_numbers_signed.cpp(374,16): warning C4101: 'result': unreferenced local variable
+  linked_list_numbers_signed.vcxproj -> W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\x64\Debug\linked_list_numbers_signed.exe

@@ -1,0 +1,4 @@
+﻿  TLAP_linked_list_strings.cpp
+  TLAP_linked_list_strings_test.cpp
+  Generating Code...
+W:\Think-Like-a-Programmer\linked_list\LinkedList_integer_arithmetic\linked_list_strings\TLAP_linked_list_strings.cpp(423,1): error C4716: 'substring': must return a value
